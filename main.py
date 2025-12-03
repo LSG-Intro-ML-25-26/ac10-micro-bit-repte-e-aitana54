@@ -1,3 +1,7 @@
+# variables move the drop
+x=2
+y=2
+
 # Meteorological station
 def on_forever():
     pass 

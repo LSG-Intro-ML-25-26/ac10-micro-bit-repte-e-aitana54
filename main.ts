@@ -1,3 +1,6 @@
+//  variables move the drop
+let x = 2
+let y = 2
 //  Meteorological station
 basic.forever(function on_forever() {
     
