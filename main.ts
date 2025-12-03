@@ -6,3 +6,7 @@ basic.forever(function on_forever() {
     
     led.plotBarGraph(input.temperature(), 50)
 })
+//  Move the drop 
+basic.forever(function on_forever2() {
+    
+})
