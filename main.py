@@ -12,4 +12,6 @@ basic.forever(on_forever)
 # Move the drop 
 def on_forever2():
     pass
+    led.plot(x, y)
+    basic.pause(50)
 basic.forever(on_forever2)

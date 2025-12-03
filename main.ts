@@ -9,4 +9,6 @@ basic.forever(function on_forever() {
 //  Move the drop 
 basic.forever(function on_forever2() {
     
+    led.plot(x, y)
+    basic.pause(50)
 })
