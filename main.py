@@ -17,4 +17,18 @@ def on_forever2():
     led.unplot(x, y)
     accX=input.acceleration(Dimension.X);
     accY=input.acceleration(Dimension.Y);
+    
+    if (accX<=150) and (x>0):
+        pass
+        x=x-1
+    if (accX>150) and (x<4):
+        pass
+        x=x+1
+    if (accY<=150) and (y>0):
+        pass
+        y=y-1
+    if (accY>150) and (y<4):
+        pass
+        y=y+1
 basic.forever(on_forever2)
+
