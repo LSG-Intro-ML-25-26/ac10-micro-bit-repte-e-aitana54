@@ -15,4 +15,6 @@ def on_forever2():
     led.plot(x, y)
     basic.pause(50)
     led.unplot(x, y)
+    accX=input.acceleration(Dimension.X);
+    accY=input.acceleration(Dimension.Y);
 basic.forever(on_forever2)
