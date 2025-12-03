@@ -14,4 +14,5 @@ def on_forever2():
     pass
     led.plot(x, y)
     basic.pause(50)
+    led.unplot(x, y)
 basic.forever(on_forever2)

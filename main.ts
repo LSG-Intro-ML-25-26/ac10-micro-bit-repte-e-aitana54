@@ -11,4 +11,5 @@ basic.forever(function on_forever2() {
     
     led.plot(x, y)
     basic.pause(50)
+    led.unplot(x, y)
 })
